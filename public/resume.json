@@ -1,0 +1,90 @@
+{
+  "profile":{
+    "first_name": "Andrew",
+    "last_name":"Bruckman",
+    "title":"Software Developer",
+    "email":"abruckman09@gmail.com",
+    "phone":"916-206-5252",
+    "github": "github.com/abruckman",
+    "linkedin":"linkedin.com/in/abruckman",
+    "region":"SF Bay Area",
+    "summary": "Nothing is more enjoyable than a well functioning machine. Whether I was working in the school lab or collecting sustainability data on industrial fishing boats, I was most interested in the technology that powered those processes. Now I build that technology. Whether a problem needs to be solved or a product needs to be engineered, I am excited to develop the solution."
+  },
+  "education":[
+    {
+      "institution":"University of California Santa Barbara",
+      "certification":"BS",
+      "major":"Aquatic Biology",
+      "year":"2013",
+      "note":[],
+    },
+    {
+      "institution":"Dev Bootcamp",
+      "certification":null,
+      "major":null,
+      "year":"2017",
+      "note":[
+        "An intensive 19 week course that teaches you the skills necessary to be a full stack developer, with a focus on collaboration and self-teaching.",
+      ],
+    },
+  ],
+  "employment":[
+    {
+      "employer": "Apple via Apex",
+      "role": "Software Developer",
+      "start_month": "September",
+      "start_year":"2017",
+      "end_month":null,
+      "end_year":null,
+      "current":true,
+      "responsiblities": [
+        "Conducted data operations and developed software tools for assigned team",
+        "Used Python scripts and Jenkins to create custom data pulls to meet team needs",
+        "Built tools to streamline work of data team using Javascript libraries including React and Electron",
+        "Led backend operations and architecture for the team web app built on Flask"
+      ]
+    },
+    {
+      "employer": "Galileo Learning",
+      "role": "Lead Instructor",
+      "start_month": "June",
+      "start_year":"2017",
+      "end_month":"August",
+      "end_year":"2017",
+      "current":true,
+      "responsiblities": [
+        "Led instruction of courses covering Minecraft Modding and Video Game Design",
+        "Instructed more than fifty students how to use Java to modify Minecraft code and create their own assets in GIMP",
+        "Taught twenty-three students to use Game Maker to make video games from scratch including coding, assets and animation",
+        "Managed sixty projects to completion"
+      ]
+    },
+    {
+      "employer": "California State Water Resources Control Board",
+      "role": "Scientific Aid",
+      "start_month": "May",
+      "start_year":"2016",
+      "end_month":"September",
+      "end_year":"2017",
+      "current":true,
+      "responsiblities": [
+        "Reviewed grant applications and invoices for water infrastructure projects as a part of the Department of Financial Assistance's Bonds Division",
+        "Prepared Data Visualizations for engineers",
+        "Examined a solicitation round of 86 grant applications from local governments all over the state",
+        "Conducted program-wide analysis of benefits and costs of proposals",
+        "Evaluate ecological effects and quantitative value of proposed and completed projects for engineers",
+        "Assisted in selection of 32 projects to receive $60 million in grant funding"
+      ]
+    },
+    {
+      "employer": "Alaskan Observers Incoprorated",
+      "role": "Fisheries Observer",
+      "start_date": "09/20/2017",
+      "end_date":null,
+      "current":true,
+      "responsiblities": [
+        ""
+      ]
+    },
+  ]
+}
