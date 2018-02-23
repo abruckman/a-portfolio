@@ -36,12 +36,12 @@
       "start_year":"2017",
       "end_month":null,
       "end_year":null,
-      "current":true,
+      "current":false,
       "responsiblities": [
         "Conducted data operations and developed software tools for assigned team",
         "Used Python scripts and Jenkins to create custom data pulls to meet team needs",
         "Built tools to streamline work of data team using Javascript libraries including React and Electron",
-        "Led backend operations and architecture for the team web app built on Flask"
+        "Led backend operations and architecture for a newly developed team web app built on Flask"
       ]
     },
     {
@@ -51,7 +51,7 @@
       "start_year":"2017",
       "end_month":"August",
       "end_year":"2017",
-      "current":true,
+      "current":false,
       "responsiblities": [
         "Led instruction of courses covering Minecraft Modding and Video Game Design",
         "Instructed more than fifty students how to use Java to modify Minecraft code and create their own assets in GIMP",
@@ -66,7 +66,7 @@
       "start_year":"2016",
       "end_month":"September",
       "end_year":"2017",
-      "current":true,
+      "current":false,
       "responsiblities": [
         "Reviewed grant applications and invoices for water infrastructure projects as a part of the Department of Financial Assistance's Bonds Division",
         "Prepared Data Visualizations for engineers",
@@ -79,11 +79,99 @@
     {
       "employer": "Alaskan Observers Incoprorated",
       "role": "Fisheries Observer",
-      "start_date": "09/20/2017",
-      "end_date":null,
-      "current":true,
+      "start_month": "December",
+      "start_year":"2013",
+      "end_month":"September",
+      "end_year":"2015",
+      "current":false,
       "responsiblities": [
-        ""
+        "Monitored groundfish fishing activities off the Alaskan coast",
+        "Lived aboard fishing boats and coordinated closely with crews",
+        "Responsible for collecting specimens from fish, birds and mammals from the Bering Sea and the Gulf of Alaska",
+        "Independently collected data on catch composition, by-catch retention, and fishing effort",
+        "Designed and conducted accepted sampling schemes for more than 500 hauls",
+        "Measured 15 different parameters from up to 160,000 kilogram hauls",
+      ]
+    },
+  ],
+  "skills":{
+    "ruby":8,
+    "Javascript":7,
+    "React":9,
+    "SQL":7,
+    "HTML5":5,
+    "CSS":6,
+    "Rails":8,
+    "Sinatra":6,
+    "Game Maker Pro":6,
+    "Github":6,
+    "Heroku":6,
+    "Bootstrap":5,
+    "Postgresql":6,
+    "JQuery":6,
+    "Unix":4,
+    "OCR":6,
+    "Nokogiri":3,
+    "D3":4,
+    "Twitter API": 6,
+    "AWS":4,
+    "Chat Bots":3,
+    "Front End Frameworks":3,
+    "A/B Testing":4,
+    "Python": 8,
+    "Flask":7,
+    "Decoupled Applications": 5,
+    "Agile Workflow":7,
+    "Cirriculum Development":6,
+    "Instruction":5,
+    "Project Management":6,
+    "Technical Writing": 4,
+    "Public Speaking": 7,
+    "Product Development": 8
+  },
+  "Projects":[
+    {
+      "name": "You Robot Tweet Generator",
+      "organization":null,
+      "Year": 2017,
+      "Month": "February",
+      "product_url": "https://twitter.com/botofyou",
+      "repo_url":"",
+      "features":[
+        "",
+      ]
+    },
+    {
+      "name": "You Robot Tweet Generator",
+      "organization":null,
+      "Year": 2017,
+      "Month": "February",
+      "product_url": "https://twitter.com/botofyou",
+      "repo_url":"",
+      "features":[
+        "",
+      ]
+    },
+    {
+      "name": "You Robot Tweet Generator",
+      "organization":null,
+      "Year": 2017,
+      "Month": "February",
+      "product_url": "https://twitter.com/botofyou",
+      "repo_url":"",
+      "features":[
+        "",
+      ]
+    },
+    {
+      "name": "You Robot Tweet Generator",
+      "organization":null,
+      "Year": 2017,
+      "Month": "February",
+      "product_url": "https://twitter.com/botofyou",
+      "repo_url":"",
+      "features":[
+        "",
       ]
     },
   ]
