@@ -181,14 +181,34 @@
     },
     {
       "name": "Streamlined Query Tool",
-      "organization":"Apple Maps Data Team",
+      "organization":"Apple Inc",
       "Year": 2017,
       "Month": "November",
       "product_url": "",
       "repo_url":"",
       "features":[
-        "",
-      ]
+        "UI experiment to create a faster database SQL query tool for in-house use",
+        "Utilized Electron to run a React app directly on the desktop ",
+        "Displayed SQL query results in a sortable table with error reporting and logging",
+        "Can write 6 million+ row query response to CSV"
+      ],
+      "images":[],
     },
+    {
+      "name": "Team Progress and Management Portal",
+      "organization":"Apple Inc",
+      "Year": 2018,
+      "Month": "March",
+      "product_url": "",
+      "repo_url":"",
+      "features":[
+        "Application for team members and management to track progress and access resources",
+        "Built on flask and run from a local postgres server deployed on proprietary hosting system",
+        "Primarily responsible for backend tasks including management of data pipelines, writing migrations, database architecture and deployment and ops.",
+        "Additionaly responsible for full stack management of multiple vertical slices that included frontend design and coding",
+        "used by team of 20 every day to manage and track 3-5 ongoing projects simultaneously"
+      ],
+      "images":[],
+    }
   ]
 }
