@@ -136,39 +136,55 @@
       "Year": 2017,
       "Month": "February",
       "product_url": "https://twitter.com/botofyou",
-      "repo_url":"",
+      "repo_url":"https://github.com/abruckman/botofyou",
       "features":[
-        "",
-      ]
+        "A bot that takes a twitter user's timeline and uses it to imitate the user's writing style",
+        "Used the Twitter API to retrieve user's timeline as JSON",
+        "Converted the JSON into a library for a Markov Chain algorithm",
+        "Now online as a functioning twitter bot @botofyou",
+        "Generated hundreds of Tweets",
+        "Featured on botlist.com"
+      ],
+      "images":[]
     },
     {
-      "name": "You Robot Tweet Generator",
+      "name": "POPOS Map Tutorial",
       "organization":null,
       "Year": 2017,
-      "Month": "February",
-      "product_url": "https://twitter.com/botofyou",
-      "repo_url":"",
+      "Month": "April",
+      "product_url": "https://abruckman.wordpress.com/2017/03/04/making-a-map-to-show-where-the-popos-are-using-mapbox/",
+      "repo_url":"https://github.com/abruckman/popos-map",
       "features":[
-        "",
-      ]
+        "A four article series detailing how to easily create a map that displays the locations of POPOS",
+        "POPOS are \"Privately Owned Public Open Spaces\" located in the Financial District and SOMA in San Francisco",
+        "Explained use of Mapbox API, including the Popups and Clustering features",
+        "Utilized City of San Francisco's public data to operate the GeoJson"
+      ],
+      "images":[],
     },
     {
-      "name": "You Robot Tweet Generator",
-      "organization":null,
+      "name": "Appointment Estimator",
+      "organization":"Spinal Intervention Specialists",
       "Year": 2017,
-      "Month": "February",
-      "product_url": "https://twitter.com/botofyou",
-      "repo_url":"",
+      "Month": "January",
+      "product_url": "",
+      "repo_url":"https://github.com/abruckman/jvkhost",
       "features":[
-        "",
-      ]
+        "Data-Driven tool for Doctor's office optimization",
+        "Built a UI and MVC framework for a Python script that uses machine learning to estimate how long procedures will take doctors",
+        "Used Bootstrap and a custom Javascript for the best user experience on the frontend",
+        "Combined Rails and Python code seamlessly in a Heroku deployment",
+        "Migrated partner's project into Git version control system",
+        "Clinic reduced wait times by 15% while scheduling an average of two more appointments per week"
+      ],
+      "images":[],
     },
     {
-      "name": "You Robot Tweet Generator",
-      "organization":null,
+      "name": "Streamlined Query Tool",
+      "organization":"Apple Maps Data Team",
       "Year": 2017,
-      "Month": "February",
-      "product_url": "https://twitter.com/botofyou",
+      "Month": "November",
+      "product_url": "",
       "repo_url":"",
       "features":[
         "",
