@@ -16,7 +16,7 @@
       "certification":"BS",
       "major":"Aquatic Biology",
       "year":"2013",
-      "note":[],
+      "note":[]
     },
     {
       "institution":"Dev Bootcamp",
@@ -24,9 +24,9 @@
       "major":null,
       "year":"2017",
       "note":[
-        "An intensive 19 week course that teaches you the skills necessary to be a full stack developer, with a focus on collaboration and self-teaching.",
-      ],
-    },
+        "An intensive 19 week course that teaches you the skills necessary to be a full stack developer, with a focus on collaboration and self-teaching."
+      ]
+    }
   ],
   "employment":[
     {
@@ -90,9 +90,9 @@
         "Responsible for collecting specimens from fish, birds and mammals from the Bering Sea and the Gulf of Alaska",
         "Independently collected data on catch composition, by-catch retention, and fishing effort",
         "Designed and conducted accepted sampling schemes for more than 500 hauls",
-        "Measured 15 different parameters from up to 160,000 kilogram hauls",
+        "Measured 15 different parameters from up to 160,000 kilogram hauls"
       ]
-    },
+    }
   ],
   "skills":{
     "ruby":8,
@@ -129,7 +129,7 @@
     "Public Speaking": 7,
     "Product Development": 8
   },
-  "Projects":[
+  "projects":[
     {
       "name": "You Robot Tweet Generator",
       "organization":null,
@@ -160,7 +160,7 @@
         "Explained use of Mapbox API, including the Popups and Clustering features",
         "Utilized City of San Francisco's public data to operate the GeoJson"
       ],
-      "images":[],
+      "images":[]
     },
     {
       "name": "Appointment Estimator",
@@ -177,18 +177,38 @@
         "Migrated partner's project into Git version control system",
         "Clinic reduced wait times by 15% while scheduling an average of two more appointments per week"
       ],
-      "images":[],
+      "images":[]
     },
     {
       "name": "Streamlined Query Tool",
-      "organization":"Apple Maps Data Team",
+      "organization":"Apple Inc",
       "Year": 2017,
       "Month": "November",
       "product_url": "",
       "repo_url":"",
       "features":[
-        "",
-      ]
+        "UI experiment to create a faster database SQL query tool for in-house use",
+        "Utilized Electron to run a React app directly on the desktop ",
+        "Displayed SQL query results in a sortable table with error reporting and logging",
+        "Can write 6 million+ row query response to CSV"
+      ],
+      "images":[]
     },
+    {
+      "name": "Team Progress and Management Portal",
+      "organization":"Apple Inc",
+      "Year": 2018,
+      "Month": "March",
+      "product_url": "",
+      "repo_url":"",
+      "features":[
+        "Application for team members and management to track progress and access resources",
+        "Built on flask and run from a local postgres server deployed on proprietary hosting system",
+        "Primarily responsible for backend tasks including management of data pipelines, writing migrations, database architecture and deployment and ops.",
+        "Additionaly responsible for full stack management of multiple vertical slices that included frontend design and coding",
+        "used by team of 20 every day to manage and track 3-5 ongoing projects simultaneously"
+      ],
+      "images":[]
+    }
   ]
 }
