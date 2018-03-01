@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import RaisedButton from 'material-ui/RaisedButton';
-import {Card, CardActions, CardHeader, CardText} from 'material-ui/Card';
+import {Card, CardHeader, CardText} from 'material-ui/Card';
 import Resume from './resume'
 
 class Header extends Component {
@@ -17,7 +16,12 @@ class Header extends Component {
         />
         <CardText>{profile.summary}</CardText>
         <CardText expandable={true}>
-          
+          <div className="contact"><i className="material-icons">mail_outline</i> <a targent="_blank" href="{profile.email}">{profile.email}</a></div>
+          <div className="contact"><i className="material-icons">phone</i> {profile.phone} </div>
+          <div className="contact"> G <a target="_blank" href="{profile.github}">{profile.github}</a></div>
+          <div className="contact"> Li <a target="_blank" href="{profile.linkedin}">{profile.linkedin}</a></div>
+          <div className="contact"></div>
+          <div className="contact"></div>
         </CardText>
       </Card>
     )

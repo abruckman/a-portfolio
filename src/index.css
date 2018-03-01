@@ -3,3 +3,13 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.width-limiter{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact{
+  display:inline-block;
+  width: 199px;
+}
