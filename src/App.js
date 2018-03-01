@@ -7,7 +7,9 @@ class App extends Component {
   render() {
     return (
       <MuiThemeProvider>
-        <Header />
+        <div className="width-limiter">
+          <Header />
+        </div>
       </MuiThemeProvider>
     );
   }
