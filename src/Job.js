@@ -7,9 +7,9 @@ class Job extends Component{
 
   render(){
 
-    const details = this.props.job.responsiblities.map( (responsiblity)=> {
+    const details = this.props.job.responsiblities.map( (responsiblity, index)=> {
       return(
-        <li>{responsiblity}</li>
+        <li key={index}>{responsiblity}</li>
       )
     })
     return(

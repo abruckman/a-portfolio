@@ -8,9 +8,9 @@ import Job from './Job'
 class Employment extends Component{
   render(){
     const history = Resume.employment
-    const jobs = history.map( (job) => {
+    const jobs = history.map( (job, index) => {
       return(
-        <Job job={job}/>
+        <Job key={index} job={job}/>
       )
     })
 
