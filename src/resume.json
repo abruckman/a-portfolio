@@ -36,7 +36,7 @@
       "start_year":"2017",
       "end_month":null,
       "end_year":null,
-      "current":false,
+      "current":true,
       "responsiblities": [
         "Conducted data operations and developed software tools for assigned team",
         "Used Python scripts and Jenkins to create custom data pulls to meet team needs",
