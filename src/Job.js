@@ -5,10 +5,28 @@ import PropTypes from 'prop-types';
 
 class Job extends Component{
 
-  
+  render(){
+    return(
+      <Card>
+        <CardHeader
+          title={this.props.job.employer}
+          subtitle={this.props.job.role}
+          actAsExpander={true}
+          showExpandableButton={true}
+        />
+        <CardText expandable={true}>
+         <div>{this.props.job.start_month + " "+this.props.job.start_year}
+              
+         </div>
+        </CardText>
+      </Card>
+    )
+  }
 
 }
 
 Job.propTypes ={
-  job: proptype.object
+  job: PropTypes.object
 }
+
+export default Job
