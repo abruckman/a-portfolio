@@ -7,7 +7,7 @@ class Job extends Component{
 
   render(){
 
-    const details = this.props.job.responsiblities.map( (responsiblity, index)=> {
+    const details = this.props.job.responsiblities.slice(1).map( (responsiblity, index)=> {
       return(
         <li key={index}>{responsiblity}</li>
       )
@@ -20,10 +20,13 @@ class Job extends Component{
           actAsExpander={true}
           showExpandableButton={true}
         />
+        <CardText>
+        <div>{this.props.job.start_month + " "+this.props.job.start_year}
+        {this.props.job.current ? " - now" : " - " + this.props.job.end_month + " " +this.props.job.end_year }
+        </div> <br/>
+        <div>{this.props.job.responsiblities[0]} </div>
+        </CardText>
         <CardText expandable={true}>
-         <div>{this.props.job.start_month + " "+this.props.job.start_year}
-              {this.props.job.current ? " - now" : " - " + this.props.job.end_month + " " +this.props.job.end_year }
-         </div>
          <ul>
           {details}
          </ul>
