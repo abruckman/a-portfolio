@@ -3,6 +3,7 @@ import './App.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Header from './Header.js'
 import Employment from './Employment.js'
+import Projects from './Projects.js'
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <div className="width-limiter">
           <Header />
           <Employment />
+          <Projects />
         </div>
       </MuiThemeProvider>
     );

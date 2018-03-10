@@ -7,7 +7,9 @@ class Projects extends Component{
   render(){
     const list = Resume.projects
     const projects = list.map( (project, index) =>{
-      <Project key={index} project={project} />
+      return(
+        <Project key={index} project={project} />
+      )
     })
 
     return(
@@ -24,3 +26,5 @@ class Projects extends Component{
     )
   }
 }
+
+export default Projects
