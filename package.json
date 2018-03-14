@@ -5,6 +5,7 @@
   "dependencies": {
     "material-ui": "^0.20.0",
     "react": "^16.2.0",
+    "react-d3-cloud": "^0.6.0",
     "react-dom": "^16.2.0",
     "react-materialize": "^2.0.6"
   },
