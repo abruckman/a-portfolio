@@ -4,6 +4,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Header from './Header.js'
 import Employment from './Employment.js'
 import Projects from './Projects.js'
+import Skills from './Skills.js'
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <Header />
           <Employment />
           <Projects />
+          <Skills />
         </div>
       </MuiThemeProvider>
     );
