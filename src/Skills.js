@@ -28,12 +28,14 @@ class Skills extends Component{
           showExpandableButton={true}
         />
         <CardText expandable={true}>
-          <WordCloud
-            data={data}
-            fontSizeMapper={values}
-            width={380}
-            height={300}
-          />
+          <div className="skill-card">
+            <WordCloud
+              data={data}
+              fontSizeMapper={values}
+              width={380}
+              height={300}
+            />
+          </div>
         </CardText>
       </Card>
     )

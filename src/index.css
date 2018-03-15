@@ -13,3 +13,10 @@ body {
   display:inline-block;
   width: 199px;
 }
+
+.skill-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%
+}
