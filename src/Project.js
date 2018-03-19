@@ -6,7 +6,7 @@ class Project extends Component{
 
   render(){
     const project = this.props.project
-    const features = project.features.map( (feature, index ) => {
+    const features = project.features.slice(1).map( (feature, index ) => {
       return(
         <li key={index}>{feature}</li>
       )
@@ -20,12 +20,15 @@ class Project extends Component{
           showExpandableButton={true}
         />
         <CardText>
-          {project.project_url ?
-            <div><a href={project.project_url}>website</a></div> : ''
+          {project.product_url ?
+            <div className="contact-icon"><a href={project.product_url}><i class="material-icons">public</i></a></div> : ''
           }
           {project.repo_url ?
-            <div><a href={project.repo_url}>Github</a></div>: ''
+            <div className="contact-icon"><a href={project.repo_url}><img className="contact-icon" alt='github logo' src='GitHub-Mark-32px.png'/></a></div>: ''
           }
+          <br />
+
+          <div>{project.features[0]}</div>
         </CardText>
         <CardText expandable={true}>
           {features}

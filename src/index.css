@@ -14,6 +14,12 @@ body {
   width: 199px;
 }
 
+.contact-icon{
+  display:inline-block;
+  height:24px;
+
+}
+
 .skill-card{
   display: flex;
   align-items: center;
