@@ -25,7 +25,7 @@ class Header extends Component {
             {profile.phone}
            </div>
           <div className="contact"><a target="_blank" href={'//'+profile.github}> <img alt='github logo' src='GitHub-Mark-32px.png'/> {profile.github}</a></div>
-          <div className="contact"> Li <a target="_blank" href={"//" + profile.linkedin}>{profile.linkedin}</a></div>
+          <div className="contact"><a target="_blank" href={"//" + profile.linkedin}> <img alt='linkedin' src='In-2CRev-21px-R.png'/> {profile.linkedin}</a></div>
           <div className="contact"></div>
           <div className="contact"></div>
         </CardText>
