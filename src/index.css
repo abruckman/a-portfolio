@@ -11,7 +11,7 @@ body {
 
 .contact{
   display:inline-block;
-  width: 199px;
+  width: 250px;
 }
 
 .contact-icon{
@@ -25,4 +25,10 @@ body {
   align-items: center;
   justify-content: center;
   width:100%
+}
+
+.contact-logo{
+  display:inline-block;
+  width: 24px;
+  margin: 5px;
 }

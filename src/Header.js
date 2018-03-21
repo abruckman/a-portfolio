@@ -17,15 +17,16 @@ class Header extends Component {
         <CardText>{profile.summary}</CardText>
         <CardText expandable={true}>
           <div className="contact">
-            <i className="material-icons">mail_outline</i>
-            <a targent="_blank" href={'//'+profile.email}>{profile.email}</a>
+            <a targent="_blank" href={'//'+profile.email}>
+              <div className="contact-logo"> <i className="material-icons">mail_outline</i></div>
+            {profile.email}</a>
           </div>
           <div className="contact">
-            <i className="material-icons">phone</i>
+            <div className="contact-logo"><i className="material-icons">phone</i></div>
             {profile.phone}
            </div>
-          <div className="contact"><a target="_blank" href={'//'+profile.github}> <img alt='github logo' src='GitHub-Mark-32px.png'/> {profile.github}</a></div>
-          <div className="contact"><a target="_blank" href={"//" + profile.linkedin}> <img alt='linkedin' src='In-2CRev-21px-R.png'/> {profile.linkedin}</a></div>
+          <div className="contact"><a target="_blank" href={'//'+profile.github}><div className="contact-logo"> <img className="contact-icon" alt='github logo' src='GitHub-Mark-32px.png'/></div> {profile.github}</a></div>
+          <div className="contact"><a target="_blank" href={"//" + profile.linkedin}> <div className="contact-logo"> <img alt='linkedin' src='In-2CRev-21px-R.png'/></div> {profile.linkedin}</a></div>
           <div className="contact"></div>
           <div className="contact"></div>
         </CardText>
