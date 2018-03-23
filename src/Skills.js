@@ -24,10 +24,8 @@ class Skills extends Component{
       <Card>
         <CardHeader
           title="Skills"
-          actAsExpander={true}
-          showExpandableButton={true}
         />
-        <CardText expandable={true}>
+        <CardText>
           <div className="skill-card">
             <WordCloud
               data={data}

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, CardHeader, CardText} from 'material-ui/Card';
+import {Card, CardHeader, CardMedia, CardText} from 'material-ui/Card';
 import Resume from './resume'
 import Project from './Project'
 
@@ -14,11 +14,18 @@ class Projects extends Component{
 
     return(
       <Card>
-        <CardHeader
-          title="Projects"
+        <CardMedia
           actAsExpander={true}
-          showExpandableButton={true}
-        />
+          overlay= {<CardHeader
+                      title="Projects"
+                      actAsExpander={true}
+                      showExpandableButton={true}
+                    />}
+
+        >
+        <img src="experience.png" alt="" />
+      </CardMedia>
+
         <CardText expandable={true}>
           {projects}
         </CardText>
