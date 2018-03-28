@@ -23,7 +23,7 @@ class Projects extends Component{
                     />}
 
         >
-        <img src="experience.png" alt="" />
+        <img src="projects.png" alt="" />
       </CardMedia>
 
         <CardText expandable={true}>

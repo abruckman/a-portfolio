@@ -24,7 +24,7 @@ class Employment extends Component{
                       showExpandableButton={true}
                     />}
         >
-          <img src="projects.png" alt="" />
+          <img src="experience.png" alt="" />
         </CardMedia>
         <CardText expandable={true}>
           {jobs}
