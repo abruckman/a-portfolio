@@ -12,8 +12,8 @@ class App extends Component {
       <MuiThemeProvider>
         <div className="width-limiter">
           <Header />
-          <Employment />
           <Projects />
+          <Employment />
           <Skills />
         </div>
       </MuiThemeProvider>

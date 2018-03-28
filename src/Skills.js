@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, CardHeader, CardText} from 'material-ui/Card';
+import {Card, CardHeader, CardMedia, CardText} from 'material-ui/Card';
 import Resume from './resume'
 import WordCloud from 'react-d3-cloud';
 
@@ -22,10 +22,17 @@ class Skills extends Component{
 
     return(
       <Card>
-        <CardHeader
-          title="Skills"
-        />
-        <CardText>
+      <CardMedia
+        actAsExpander={true}
+        overlay= {<CardHeader
+                    title="Skills"
+                    actAsExpander={true}
+                    showExpandableButton={true}
+                  />}
+      >
+        <img src="skills.png" alt="" />
+      </CardMedia>
+        <CardText expandable={true}>
           <div className="skill-card">
             <WordCloud
               data={data}
