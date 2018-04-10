@@ -30,6 +30,7 @@ class Skills extends Component{
                     showExpandableButton={true}
                   />}
       >
+      
         <img src="skills.png" alt="" />
       </CardMedia>
         <CardText expandable={true}>
